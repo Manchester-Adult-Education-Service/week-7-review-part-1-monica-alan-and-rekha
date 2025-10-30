@@ -111,7 +111,15 @@ print("-------------------------------------------\n"
 # You are an adult!
 #
 # Write your code below:
-
+if age >= 61 and age <=79:
+    print ("You are a boomer!")
+elif age >= 45 and age <=60:
+    print ("You are Gen X!")
+elif age >= 29 and age <= 44:
+    print ("You are Millenial!")
+else:
+    print ("You are not a Boomer, Millenial or Gen X")
+    
 
 # -------------------------------------------
 # SWAP COMPUTERS
