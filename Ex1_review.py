@@ -151,8 +151,12 @@ print("-------------------------------------------\n"
 # You were born in the 21st century!
 #
 # Write your code below:
-
-
+year_of_birth= 2025 - age
+print(f"You were born in {year_of_birth}. ")
+if year_of_birth < 2000:
+    print("You were born in the 20th century!!")
+else:
+    print("You were born in the 21st century! ")
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
