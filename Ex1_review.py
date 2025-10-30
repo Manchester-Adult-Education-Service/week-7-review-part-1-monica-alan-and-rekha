@@ -41,8 +41,9 @@ print("-------------------------------------------\n"
 # Output: Hello Sam, you are 30 years old.
 #
 # Write your code below:
-
-
+name=input("What is your name: ")
+age=int(input("What is your age?: "))
+print(f" Hello {name}, you are {age} years old.")
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
@@ -78,8 +79,8 @@ print("-------------------------------------------\n"
 # That means you are about 3.1 decades old.
 #
 # Write your code below:
-
-
+next_year_age = age + 1
+print(f"Next year, you will be {next_year_age} year old")
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
@@ -110,7 +111,15 @@ print("-------------------------------------------\n"
 # You are an adult!
 #
 # Write your code below:
-
+if age >= 61 and age <=79:
+    print ("You are a boomer!")
+elif age >= 45 and age <=60:
+    print ("You are Gen X!")
+elif age >= 29 and age <= 44:
+    print ("You are Millenial!")
+else:
+    print ("You are not a Boomer, Millenial or Gen X")
+    
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -142,8 +151,12 @@ print("-------------------------------------------\n"
 # You were born in the 21st century!
 #
 # Write your code below:
-
-
+year_of_birth= 2025 - age
+print(f"You were born in {year_of_birth}. ")
+if year_of_birth < 2000:
+    print("You were born in the 20th century!!")
+else:
+    print("You were born in the 21st century! ")
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
@@ -169,10 +182,11 @@ print("-------------------------------------------\n"
 #     Next year you will be <next_year_age>. That’s about <decades> decades old!"
 #
 # Write your code below:
-
-
+decades = age / 10
+print(f"Hello {name}! You are {age} years old, born in {year_of_birth}.")
+print(f"Next year you will be {next_year_age}. That's about {decades} decades old!")
 # -------------------------------------------
-# SWAP COMPUTERS
+# SWAP COMPRS
 # -------------------------------------------
 # 1. Save and push:
 #    git add Ex1_review.py
@@ -202,8 +216,9 @@ print("-------------------------------------------\n"
 # Your lucky total is 54!
 
 # Write your code below:
-
-
+favourite_number= int(input("What is your favourite number?: "))
+lucky_total = favourite_number * age 
+print(f"your lucky total is {lucky_total}! ")
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
