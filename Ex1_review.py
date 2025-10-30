@@ -182,10 +182,11 @@ print("-------------------------------------------\n"
 #     Next year you will be <next_year_age>. That’s about <decades> decades old!"
 #
 # Write your code below:
-
-
+decades = age / 10
+print(f"Hello {name}! You are {age} years old, born in {year_of_birth}.")
+print(f"Next year you will be {next_year_age}. That's about {decades} decades old!")
 # -------------------------------------------
-# SWAP COMPUTERS
+# SWAP COMPRS
 # -------------------------------------------
 # 1. Save and push:
 #    git add Ex1_review.py
