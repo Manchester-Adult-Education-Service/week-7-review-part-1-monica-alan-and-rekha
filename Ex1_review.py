@@ -79,8 +79,8 @@ print("-------------------------------------------\n"
 # That means you are about 3.1 decades old.
 #
 # Write your code below:
-
-
+next_year_age = age + 1
+print(f"Next year, you will be {next_year_age} year old")
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
