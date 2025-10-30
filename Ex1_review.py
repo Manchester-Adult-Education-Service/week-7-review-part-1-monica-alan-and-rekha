@@ -216,7 +216,7 @@ print("-------------------------------------------\n"
 # Your lucky total is 54!
 
 # Write your code below:
-
+favourite_number= ("What is your favourite number?: ")
 
 # -------------------------------------------
 # SWAP COMPUTERS
