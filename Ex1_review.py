@@ -216,8 +216,9 @@ print("-------------------------------------------\n"
 # Your lucky total is 54!
 
 # Write your code below:
-favourite_number= ("What is your favourite number?: ")
-
+favourite_number= int(input("What is your favourite number?: "))
+lucky_total = favourite_number * age 
+print(f"your lucky total is {lucky_total}! ")
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
