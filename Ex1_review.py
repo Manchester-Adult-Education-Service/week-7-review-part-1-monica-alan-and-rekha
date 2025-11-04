@@ -41,8 +41,8 @@ print("-------------------------------------------\n"
 # Output: Hello Sam, you are 30 years old.
 #
 # Write your code below:
-name=input("What is your name: ")
-age=int(input("What is your age?: "))
+name = input("What is your name?: ")
+age = int(input("What is your age?: "))
 print(f" Hello {name}, you are {age} years old.")
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -80,7 +80,7 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 next_year_age = age + 1
-print(f"Next year, you will be {next_year_age} year old")
+print(f"Next year, you will be {next_year_age} years old")
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
@@ -216,7 +216,7 @@ print("-------------------------------------------\n"
 # Your lucky total is 54!
 
 # Write your code below:
-favourite_number= int(input("What is your favourite number?: "))
+favourite_number = int(input("What is your favourite number?: "))
 lucky_total = favourite_number * age 
 print(f"your lucky total is {lucky_total}! ")
 # -------------------------------------------
@@ -243,8 +243,14 @@ print("-------------------------------------------\n"
 # - "<name> and <other_name> are the same age!"
 #
 # Write your code below:
-
-
+person2_name = input("Enter person 2 name: ")
+person2_age = int(input(f"Enter {person2_name}'s age: "))
+if age > person2_age:
+    print(f"{name} is older than {person2_name}.") 
+elif age < person2_age:
+    print(f"{name} is younger than {person2_name}.")
+else:
+    print(f"{name} and {person2_name} are the same age!")
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
