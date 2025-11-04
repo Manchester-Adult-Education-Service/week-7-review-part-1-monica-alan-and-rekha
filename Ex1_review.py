@@ -280,7 +280,16 @@ print("-------------------------------------------\n"
 # Hint: Use subtraction (2025 - year_of_birth).
 #
 # Write your code below:
-
+user_name = input("What is your name?: ")
+year_of_birth = int(input("What year were you born?: "))
+age = 2025 - year_of_birth
+if age >= 18: 
+    print(f"You are an adult!")
+elif age >= 13:
+    print(f"You are a teenager.")
+else:
+    print(f"You are a child!")
+print(f"Hello {user_name}, you are {age} years old in 2025!")
 
 # -------------------------------------------
 # Submitting Your Work
